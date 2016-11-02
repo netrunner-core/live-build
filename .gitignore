@@ -21,6 +21,7 @@ config/common
 config/source
 
 config/control
+config/
 
 source/
 source*.iso
