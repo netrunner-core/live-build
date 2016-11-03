@@ -1,3 +1,2 @@
 echo "Copying over customized grub theme and sed'ing out label"
 cp -aR ../chroot/boot/grub/themes boot/grub/
-sed -i 's,Debian GNU/Linux,Netrunner Core,g' boot/grub/grub.cfg
