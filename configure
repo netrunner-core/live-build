@@ -37,6 +37,7 @@ lb config \
  --firmware-chroot false \
  --iso-volume "Netrunner Core ${VER}" \
  --cache false \
+ --cache-stages false \
  $@
 
 echo "I: copy customization"
