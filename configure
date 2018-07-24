@@ -26,8 +26,6 @@ lb config \
  --binary-images iso-hybrid \
  --bootappend-live "boot=live hostname=live-pc username=live live-config.user-default-groups=${_GROUPS} apparmor=0 quiet splash" \
  --mode debian \
- --security false \
- --updates false \
  --apt-source-archives false \
  --source false \
  --apt-options "--yes -o Debug::pkgProblemResolver=true -o Debug::pkgDepCache::AutoInstall=true -o Debug::pkgDepCache::Marker=true -o Acquire::Check-Valid-Until=false -o Acquire::Retries=10" \
