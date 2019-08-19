@@ -14,8 +14,6 @@ cache/
 chroot/
 chroot.packages.*
 
-config/control
-config/
 
 source/
 source*.iso
