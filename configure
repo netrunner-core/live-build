@@ -30,7 +30,8 @@ lb config \
  --source false \
  --apt-options "--yes -o Debug::pkgProblemResolver=true -o Debug::pkgDepCache::AutoInstall=true -o Debug::pkgDepCache::Marker=true -o Acquire::Check-Valid-Until=false -o Acquire::Retries=10" \
  --iso-volume "Netrunner Core ${VER}" \
- --security false \
+ --security true \
+ --updates true \
  --debootstrap-options "--include apt-transport-https,ca-certificates,gnupg2 --no-check-gpg" \
  $@
 
