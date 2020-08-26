@@ -1,1 +1,1 @@
-deb http://deb.netrunner.com/dci/packages/netrunner netrunner-core-2001 calamares ds9-artwork ds9-common extras netrunner-core netrunner backports
+deb http://dci.ds9.pub/netrunner netrunner-next calamares ds9-artwork ds9-common extras netrunner-core netrunner backports
