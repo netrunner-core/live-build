@@ -22,12 +22,13 @@ _GROUPS="sambashare,cdrom,floppy,audio,dip,video,plugdev,netdev,lpadmin,scanner,
 
 lb config \
  --archive-areas 'main contrib non-free' \
- --distribution buster \
+ --distribution stable \
  --binary-images iso-hybrid \
  --bootappend-live "boot=live hostname=live-pc username=live live-config.user-default-groups=${_GROUPS} apparmor=0 quiet splash" \
  --mode debian \
  --apt-source-archives false \
  --source false \
+ --linux-packages "linux-image-5.9.0-0.bpo.5" \
  --apt-options "--yes -o Debug::pkgProblemResolver=true -o Debug::pkgDepCache::AutoInstall=true -o Debug::pkgDepCache::Marker=true -o Acquire::Check-Valid-Until=false -o Acquire::Retries=10" \
  --iso-volume "Netrunner Core ${VER}" \
  --security true \
